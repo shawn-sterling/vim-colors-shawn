@@ -13,7 +13,7 @@ highlight clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "sfin"
+let g:colors_name = "shawn"
 
 " term = non color
 " cterm = color
