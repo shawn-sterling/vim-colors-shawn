@@ -87,3 +87,6 @@ hi NonText ctermfg=240
 hi SpecialKey ctermfg=240
 
 "hi pythonBuiltinFunc guifg=#2e8b56 ctermfg=29 guibg=#00FF00 ctermbg=10 gui=NONE
+
+hi IndentGuidesOdd ctermbg=232
+hi IndentGuidesEven ctermbg=233
