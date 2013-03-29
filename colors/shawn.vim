@@ -90,3 +90,6 @@ hi SpecialKey ctermfg=240
 
 hi IndentGuidesOdd ctermbg=232
 hi IndentGuidesEven ctermbg=233
+
+" python-mode and gitgutter make heavy use of the SignColumn, default=ugly
+hi SignColumn ctermbg=237
