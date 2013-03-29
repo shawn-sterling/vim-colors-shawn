@@ -93,3 +93,6 @@ hi IndentGuidesEven ctermbg=233
 
 " python-mode and gitgutter make heavy use of the SignColumn, default=ugly
 hi SignColumn ctermbg=237
+
+" hilites i can see. need to find a better color. this will do for now.
+hi Visual ctermbg=53
