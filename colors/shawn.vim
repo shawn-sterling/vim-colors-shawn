@@ -25,6 +25,9 @@ hi Normal guifg=#e0eee0 ctermfg=7 guibg=#000000 ctermbg=NONE cterm=none gui=NONE
 " ColorColum is the line showing the 80th line
 hi ColorColumn guifg=NONE guibg=#0f0f0f ctermbg=235 gui=NONE
 
+" ColorLine is the line on which your cursor resides
+hi CursorLine ctermbg=233 cterm=NONE
+
 " comment color
 hi Comment guifg=#7a7a7a ctermfg=243 guibg=NONE gui=NONE
 
@@ -90,3 +93,19 @@ hi SpecialKey ctermfg=240
 
 hi IndentGuidesOdd ctermbg=232
 hi IndentGuidesEven ctermbg=233
+
+" python-mode and gitgutter make heavy use of the SignColumn, default=ugly
+hi SignColumn ctermbg=237
+
+" hilites i can see. need to find a better color. this will do for now.
+hi Visual ctermbg=53
+
+" Diff colors needs serious work next time I diff
+" purple
+hi DiffAdd ctermbg=53
+" orange was 208
+hi DiffDelete ctermbg=NONE 
+" blue
+hi DiffChange ctermbg=23
+" green 28
+hi DiffText ctermbg=30
